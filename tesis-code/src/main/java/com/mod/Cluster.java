@@ -66,6 +66,24 @@ public class Cluster implements Comparable<Cluster>{
     bufferedWriter.close();        
   }
 
+	public void writeMappedCluster(String fileName) throws IOException
+  {
+    BufferedWriter bufferedWriter;
+    int i;
+    String word;    
+    Integer index;
+    
+    bufferedWriter = new BufferedWriter(new FileWriter(fileName));
+
+    int[] partition = this.partition;
+    int numCommunities = this.numCommunities;
+    for (i = 0; i < partition.length; i++)
+      {
+        bufferedWriter.write(i + "\t"+Integer.toString(partition[i]));
+        bufferedWriter.newLine();
+      }
+    bufferedWriter.close();        
+  }
 
 
 }

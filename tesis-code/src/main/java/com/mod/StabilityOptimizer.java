@@ -46,9 +46,13 @@ public class StabilityOptimizer {
     double markovTime = (getPartition) ? Double.parseDouble(args[7]) : 1;
         
     BiMap<String,Integer> nodeBiMap = createMapping(inputFileName);
+    System.gc();
     DoubleMatrix A = readFile(inputFileName, nodeBiMap);
+    // DoubleMatrix A = readMappedFile(inputFileName);
+
         
     int n = nodeBiMap.size();
+    // int n = 262111;
     double[] dataForOnes = new double[n];
     Arrays.fill(dataForOnes,1);
     DoubleMatrix ones = new DoubleMatrix(dataForOnes);
@@ -71,7 +75,7 @@ public class StabilityOptimizer {
     DoubleMatrix piTpi = (pi.transpose()).mmul(pi);
         
     double[] times = new double[]{0.1,0.107189,0.110975,0.118953,0.123155,0.127505,0.132009,0.136672,0.146497,0.151672,0.162576,0.168318,0.174263,0.180419,0.186791,0.193389,0.20022,0.222195,0.238169,0.255291,0.264308,0.273644,0.293317,0.303677,0.314404,0.337006,0.361234,0.373994,0.387204,0.41504,0.4297,0.444878,0.460592,0.493705,0.511143,0.567243,0.587279,0.608022,0.629499,0.651734,0.674754,0.723263,0.74881,0.77526,0.802643,0.860346,0.890735,0.922198,0.954772,1.02341,1.05956,1.13573,1.17585,1.26038,1.3049,1.39871,1.44812,1.55223,1.60705,1.72259,1.84642,1.91164,1.97917,2.04907,2.12145,2.27397,2.35429,2.43744,2.52354,2.61268,2.70496,2.8005,2.89942,3.00184,3.21764,3.33129,3.44896,3.57079,3.69691,3.82749,3.96269,4.10266,4.24757,4.3976,4.55294,4.71375,4.88025,5.05263,5.2311,5.41587,5.60717,5.80523,6.01028,6.22257,6.44236,6.66992,6.90551,7.14943,7.40196,7.66341,7.9341,8.21434,8.50449,8.80488,9.11589,9.43788,9.77124,10.1164,10.4737,10.8437,11.2267,11.6232,12.0338,12.4588,12.8989,13.3545,13.8262,14.3146,14.8202,15.3437,15.8857,16.4468,17.0277,17.6291,18.2518,18.8965,19.564,20.255,20.9705,21.7112,22.4781,23.272,24.094,24.9451,25.8262,26.7384,27.6829,28.6607,29.673,30.7211,31.8063,32.9297,34.0929,35.2971,36.5438,37.8346,39.171,40.5546,41.9871,43.4701,45.0056,46.5953,48.2411,49.9451,51.7092,53.5357,55.4266,57.3844,59.4113,61.5099,63.6825,65.9319,68.2607,70.6718,73.1681,75.7525,78.4282,81.1984,84.0665,87.0359,90.1102,93.293,96.5883,100};
-
+    // double[] times = new double[]{0.303677,0.511143,0.723263,0.922198,1.55223,3.00184,5.05263,7.14943,9.77124,12.0338,14.8202,18.2518,22.4781,30.7211,40.5546,51.7092,65.9319,81.1984,100};
     //double[] times = new double[]{0.314404,0.41504,0.511143,0.601734,0.802643,0.914772,1,2.04907,3.00184,10.8437,20.255,30.7211,40.5546,61.5099,100};
 	
     ArrayList<Cluster> clusters = new ArrayList<Cluster>(); 
@@ -97,6 +101,7 @@ public class StabilityOptimizer {
       cluster = null;
       nClusters = -1;
       random = new Random(seed);
+      System.out.println("Starting random starts");
       for (i = 0; i < nRandomStarts; i++)
         {
           network.initSingleClusters();
@@ -116,10 +121,12 @@ public class StabilityOptimizer {
           DoubleMatrix H = getPartitionMatrix(cluster,n, nClusters);
           stability = computeStability(H,PI, piTpi, DinvL,time);
           clusters.add(new Cluster (cluster, stability, nClusters,time));
-          /*if (nClusters < 2){
+          if (nClusters < 2){
+            System.out.println("a.break!");
             break;
-          }*/
+          }
         }
+      System.out.println("Finish random starts. Finiding max stability cluster");
       
       //HACER QUE c SEA EL CLUSTER DE MAXIMA ESTABILIDAD
       Cluster best = clusters.get(0);
@@ -131,13 +138,15 @@ public class StabilityOptimizer {
       meanVI = computeMeanVI(clusters);
       best.setMeanVI(meanVI);
       bestClusters.add(best);
-      if (nClusters < 2){
+      clusters.clear();
+      if (nClusters < 3){
+        System.out.println("b.break!");
         break;
       }
     }
         
     if(getPartition){
-      bestClusters.get(0).writeCluster(outputFileName, nodeBiMap);
+      bestClusters.get(0).writeCluster(outputFileName,nodeBiMap);
     }else{
       writeResults(outputFileName, bestClusters);
     }
@@ -159,7 +168,8 @@ public class StabilityOptimizer {
             nodeList.add(node2);
           }
       }
-    fileScanner.close();     
+    fileScanner.close();
+    System.gc();   
     Set<String> nodeSet = new HashSet<String>(nodeList);
     List<String> sortedNodes = new ArrayList<String>(nodeSet);
     Collections.sort(sortedNodes);
@@ -171,11 +181,42 @@ public class StabilityOptimizer {
     return nodeBiMap;    	 	
   }
   
+
+  private static DoubleMatrix readMappedFile (String fileName) throws IOException{ 
+    Scanner fileScanner, lineScanner;
+    // double weight;
+    int node1, node2;
+    int n = 262111;
+    
+    // double[][] dataForA = new double[n][n];
+    System.out.println(n);
+
+    DoubleMatrix A = DoubleMatrix.zeros(n,n);
+    
+    fileScanner = new Scanner(new FileReader(fileName));
+    while (fileScanner.hasNext())
+      {
+        lineScanner = new Scanner(fileScanner.nextLine());
+        node1 = Integer.parseInt(lineScanner.next());
+        node2 = Integer.parseInt(lineScanner.next());
+        A.put(node1,node2, 1);
+        A.put(node2,node1,1);
+       
+        // dataForA[node1][node2] = 1;
+        // dataForA[node2][node1] = 1;
+      } 
+    // DoubleMatrix A = new DoubleMatrix(dataForA);
+    return A;
+  }
+
+
   private static DoubleMatrix readFile (String fileName, BiMap<String,Integer> nodeBiMap) throws IOException{	
     Scanner fileScanner, lineScanner;
     double weight;
     int node1, node2;
     int n = nodeBiMap.size();
+    System.out.println("Node bimap size");
+    System.out.println(n);
     
     double[][] dataForA = new double[n][n];
     
@@ -260,7 +301,7 @@ public class StabilityOptimizer {
   }
   
   private static void writeResults(String fileName, ArrayList<Cluster> bestClusters) throws IOException{
-    BufferedWriter bufferedWriter= new BufferedWriter(new FileWriter(fileName));
+    BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(fileName));
     bufferedWriter.write("MarkovTime\tStability\tnumClusters\tmeanVI");
     bufferedWriter.newLine();
     for (int i = 0; i<bestClusters.size();i++){
