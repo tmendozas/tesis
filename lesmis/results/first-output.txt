@@ -1,0 +1,759 @@
+Node bimap size
+77
+Number of nodes: 77
+Number of edges: 1316
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 59
+Number of clusters found: 59
+Number of clusters found: 59
+Number of clusters found: 59
+Number of clusters found: 59
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 1344
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 58
+Number of clusters found: 58
+Number of clusters found: 58
+Number of clusters found: 58
+Number of clusters found: 58
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 1366
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 58
+Number of clusters found: 58
+Number of clusters found: 58
+Number of clusters found: 58
+Number of clusters found: 58
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 1419
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 58
+Number of clusters found: 58
+Number of clusters found: 58
+Number of clusters found: 58
+Number of clusters found: 58
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 1447
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 58
+Number of clusters found: 58
+Number of clusters found: 58
+Number of clusters found: 58
+Number of clusters found: 58
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 1519
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 58
+Number of clusters found: 58
+Number of clusters found: 58
+Number of clusters found: 58
+Number of clusters found: 58
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 1559
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 58
+Number of clusters found: 58
+Number of clusters found: 58
+Number of clusters found: 58
+Number of clusters found: 58
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 1595
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 57
+Number of clusters found: 57
+Number of clusters found: 57
+Number of clusters found: 57
+Number of clusters found: 57
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 1650
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 49
+Number of clusters found: 49
+Number of clusters found: 49
+Number of clusters found: 49
+Number of clusters found: 49
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 1703
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 48
+Number of clusters found: 48
+Number of clusters found: 48
+Number of clusters found: 48
+Number of clusters found: 48
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 1726
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 42
+Number of clusters found: 41
+Number of clusters found: 41
+Number of clusters found: 41
+Number of clusters found: 42
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 1744
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 41
+Number of clusters found: 41
+Number of clusters found: 40
+Number of clusters found: 41
+Number of clusters found: 41
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 1866
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 35
+Number of clusters found: 35
+Number of clusters found: 35
+Number of clusters found: 35
+Number of clusters found: 35
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 1960
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 34
+Number of clusters found: 34
+Number of clusters found: 34
+Number of clusters found: 34
+Number of clusters found: 34
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 2005
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 34
+Number of clusters found: 34
+Number of clusters found: 34
+Number of clusters found: 34
+Number of clusters found: 34
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 2020
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 33
+Number of clusters found: 33
+Number of clusters found: 33
+Number of clusters found: 33
+Number of clusters found: 33
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 2037
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 32
+Number of clusters found: 32
+Number of clusters found: 32
+Number of clusters found: 32
+Number of clusters found: 32
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 2153
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 31
+Number of clusters found: 31
+Number of clusters found: 31
+Number of clusters found: 31
+Number of clusters found: 31
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 2359
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 27
+Number of clusters found: 27
+Number of clusters found: 27
+Number of clusters found: 28
+Number of clusters found: 27
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 2368
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 24
+Number of clusters found: 24
+Number of clusters found: 24
+Number of clusters found: 24
+Number of clusters found: 24
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 2392
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 23
+Number of clusters found: 22
+Number of clusters found: 23
+Number of clusters found: 22
+Number of clusters found: 23
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 2427
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 21
+Number of clusters found: 22
+Number of clusters found: 21
+Number of clusters found: 21
+Number of clusters found: 21
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 2436
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 18
+Number of clusters found: 18
+Number of clusters found: 18
+Number of clusters found: 18
+Number of clusters found: 18
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 2446
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 17
+Number of clusters found: 17
+Number of clusters found: 17
+Number of clusters found: 17
+Number of clusters found: 17
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 2479
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 15
+Number of clusters found: 16
+Number of clusters found: 15
+Number of clusters found: 15
+Number of clusters found: 14
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 2486
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 12
+Number of clusters found: 12
+Number of clusters found: 12
+Number of clusters found: 12
+Number of clusters found: 12
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 2489
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 10
+Number of clusters found: 10
+Number of clusters found: 10
+Number of clusters found: 10
+Number of clusters found: 10
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 2491
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 10
+Number of clusters found: 10
+Number of clusters found: 10
+Number of clusters found: 10
+Number of clusters found: 10
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 2493
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 9
+Number of clusters found: 9
+Number of clusters found: 9
+Number of clusters found: 9
+Number of clusters found: 9
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 2503
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 9
+Number of clusters found: 9
+Number of clusters found: 9
+Number of clusters found: 9
+Number of clusters found: 9
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 2521
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 9
+Number of clusters found: 9
+Number of clusters found: 9
+Number of clusters found: 9
+Number of clusters found: 9
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 2524
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 9
+Number of clusters found: 9
+Number of clusters found: 9
+Number of clusters found: 9
+Number of clusters found: 9
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 2530
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 8
+Number of clusters found: 8
+Number of clusters found: 8
+Number of clusters found: 8
+Number of clusters found: 8
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 2553
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 8
+Number of clusters found: 8
+Number of clusters found: 8
+Number of clusters found: 8
+Number of clusters found: 8
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 2564
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 8
+Number of clusters found: 8
+Number of clusters found: 8
+Number of clusters found: 8
+Number of clusters found: 8
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 2589
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 7
+Number of clusters found: 7
+Number of clusters found: 8
+Number of clusters found: 7
+Number of clusters found: 8
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 2600
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 7
+Number of clusters found: 7
+Number of clusters found: 7
+Number of clusters found: 7
+Number of clusters found: 7
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 2612
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 7
+Number of clusters found: 7
+Number of clusters found: 7
+Number of clusters found: 7
+Number of clusters found: 7
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 2628
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 7
+Number of clusters found: 7
+Number of clusters found: 7
+Number of clusters found: 7
+Number of clusters found: 7
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 2630
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 6
+Number of clusters found: 6
+Number of clusters found: 6
+Number of clusters found: 5
+Number of clusters found: 6
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 2635
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 6
+Number of clusters found: 6
+Number of clusters found: 6
+Number of clusters found: 5
+Number of clusters found: 6
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 2708
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 6
+Number of clusters found: 6
+Number of clusters found: 6
+Number of clusters found: 6
+Number of clusters found: 6
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 2732
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 6
+Number of clusters found: 6
+Number of clusters found: 6
+Number of clusters found: 6
+Number of clusters found: 6
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 2764
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 6
+Number of clusters found: 6
+Number of clusters found: 6
+Number of clusters found: 6
+Number of clusters found: 6
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 2784
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 5
+Number of clusters found: 5
+Number of clusters found: 5
+Number of clusters found: 5
+Number of clusters found: 5
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 2812
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 5
+Number of clusters found: 4
+Number of clusters found: 4
+Number of clusters found: 4
+Number of clusters found: 4
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 2824
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 5
+Number of clusters found: 4
+Number of clusters found: 4
+Number of clusters found: 4
+Number of clusters found: 4
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 2824
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 5
+Number of clusters found: 4
+Number of clusters found: 4
+Number of clusters found: 4
+Number of clusters found: 4
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 2824
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 5
+Number of clusters found: 4
+Number of clusters found: 4
+Number of clusters found: 4
+Number of clusters found: 5
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 2861
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 5
+Number of clusters found: 4
+Number of clusters found: 5
+Number of clusters found: 5
+Number of clusters found: 5
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 2862
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 5
+Number of clusters found: 4
+Number of clusters found: 5
+Number of clusters found: 4
+Number of clusters found: 5
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 2870
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 4
+Number of clusters found: 4
+Number of clusters found: 4
+Number of clusters found: 4
+Number of clusters found: 4
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 2889
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 4
+Number of clusters found: 4
+Number of clusters found: 4
+Number of clusters found: 4
+Number of clusters found: 4
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 2890
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 4
+Number of clusters found: 4
+Number of clusters found: 4
+Number of clusters found: 4
+Number of clusters found: 4
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 2898
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 4
+Number of clusters found: 4
+Number of clusters found: 4
+Number of clusters found: 4
+Number of clusters found: 4
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 2906
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 4
+Number of clusters found: 4
+Number of clusters found: 4
+Number of clusters found: 4
+Number of clusters found: 4
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 2906
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 4
+Number of clusters found: 4
+Number of clusters found: 4
+Number of clusters found: 4
+Number of clusters found: 4
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 2908
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 3
+Number of clusters found: 3
+Number of clusters found: 3
+Number of clusters found: 3
+Number of clusters found: 4
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 2908
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 3
+Number of clusters found: 3
+Number of clusters found: 4
+Number of clusters found: 3
+Number of clusters found: 3
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 2908
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 3
+Number of clusters found: 3
+Number of clusters found: 3
+Number of clusters found: 3
+Number of clusters found: 3
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 2908
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 3
+Number of clusters found: 3
+Number of clusters found: 3
+Number of clusters found: 3
+Number of clusters found: 3
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 2908
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 3
+Number of clusters found: 3
+Number of clusters found: 3
+Number of clusters found: 3
+Number of clusters found: 3
+Finish random starts. Finiding max stability cluster
+Number of nodes: 77
+Number of edges: 2908
+
+Running Louvain algorithm
+
+Starting random starts
+Number of clusters found: 3
+Number of clusters found: 3
+Number of clusters found: 2
+Number of clusters found: 2
+Number of clusters found: 2
+Finish random starts. Finiding max stability cluster
+b.break!
