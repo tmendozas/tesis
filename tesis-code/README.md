@@ -1,12 +1,14 @@
 This thesis has two main objectives:
+
 1. Explore communities at different times (times are hardcoded in StabilityOptimizer.java)
+
 2. Get the partition in communities at a given time.
 
 Usually, one would run the exploratory component to choose relevant times.
 Then get the partition for one or several of those times.
 
 Project should be compiled with maven, and .jar added to CLASSPATH:
->> export CLASSPATH=export CLASSPATH=target/tesis-0.1-jar-with-dependencies.jar
+export CLASSPATH=export CLASSPATH=target/tesis-0.1-jar-with-dependencies.jar
 
 An example to run the exploratory component would be as follows:
 >> java -Xmx14g com.mod.StabilityOptimizer ~/network.tsv ~/results/results.txt 5 5 1 1 0
